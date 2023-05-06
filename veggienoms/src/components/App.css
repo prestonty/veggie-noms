@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-color:#F8F6F6;
+}
+
+@font-face {
+  font-family: CodecPro;
+  src: url(../assets/font/CodecPro-Light.woff);
+}
+
+@font-face {
+  font-family: CodecProBold;
+  src: url(../assets/font/CodecPro-UltraBlack.woff);
+  font-weight: bold;
+}
+
+div {
+  font-family: CodecPro;
+}
+
+h1 {
+  font-family: CodecProBold;
+  font-size: 128px;
+}
