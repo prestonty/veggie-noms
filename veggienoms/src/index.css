@@ -1,6 +1,10 @@
 body {
   margin: 0;
+  cursor: url(assets/cursors/default.png), none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+tr:hover{
+  cursor: url(assets/cursors/pointer.png), pointer;
+}

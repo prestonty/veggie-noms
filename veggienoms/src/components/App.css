@@ -3,6 +3,14 @@
   background-color:#F8F6F6;
 }
 
+body {
+  cursor: url(../assets/cursors/default.png), default;
+}
+
+tr:hover{
+  cursor: url(../assets/cursors/pointer.png), pointer;
+}
+
 @font-face {
   font-family: CodecPro;
   src: url(../assets/font/CodecPro-Light.woff);
@@ -20,5 +28,6 @@ div {
 
 h1 {
   font-family: CodecProBold;
-  font-size: 128px;
+  font-size: 96px;
+  letter-spacing: -5px;
 }
