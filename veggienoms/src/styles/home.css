@@ -5,12 +5,12 @@
   .green {
     color:#BEBF6F;
   }
-
-
+  
 .home-alignment {
 text-align:left;
 align-content:left;
 margin-left:10%;
+margin-top:-5%;
 }
 
 .background{
@@ -34,6 +34,15 @@ margin-left:10%;
   animation: expand 0.2s forwards;
 }
 
+@keyframes greenToOrange {
+  from {
+    color:#BEBF6F;
+  }
+  to {
+    color:#EAAD85;
+  }
+}
+
 /* Define the animation */
 @keyframes expand {
   from {
@@ -46,20 +55,17 @@ margin-left:10%;
 
 @keyframes typing {
   from { 
-    border-right: 0.1em 100%;
+
     width: 0 ;
   }
   to {
-     width: 90% ;
-     border-right: 0.1em 0%;
+     width: 60% ;
     }
   }
 
 /* Apply the animation to the element */
 .typewriter {
   overflow: hidden; /* Ensures the text is not visible outside the box */
-  border-right: 0.1em solid;
   white-space: nowrap; /* Keeps the text on one line */
-  animation: typing 2s forwards; /* Set the animation duration and steps */
-
+  animation: typing 2s ease; /* Set the animation duration and steps */
 }

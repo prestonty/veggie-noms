@@ -5,14 +5,17 @@ import Edit from "../assets/buttons/edit.png";
 import Generate from "../assets/buttons/generate.png";
 import Grass from "../assets/backgrounds/grass.png";
 
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 function Home() {
   return (
     <div>
       <div class="home-alignment">
       <h1 class="green typewriter"> nom <br />nutritiously.</h1>
-      <img class="splash" src={Splash}></img>
-      <img class="button" src={Edit}></img>
-      <img class="button" src={Generate}></img>
+      <img class="splash" src={Splash} />
+      <img class="button" src={Edit} />
+      <img class="button" src={Generate} />
     </div>
     </div>
   );
