@@ -30,7 +30,7 @@ async function main() {
     // start adding users to collection (RUN ONLY ONCE) --------------------------------------------------------------------------------
 
     // Read the CSV file
-    fs.createReadStream("nutrients3.csv")
+    fs.createReadStream("nutrients4.csv")
       .pipe(csv())
       .on("data", (data) => {
         results.push(data);
@@ -44,13 +44,13 @@ async function main() {
           data[row.id] = {
             food: row.food,
             measure: row.measure,
-            grams: row.grams,
-            calories: row.calories,
-            protein: row.protein,
-            fat: row.fat,
-            satFat: row.satFat,
-            fiber: row.fiber,
-            carbs: row.carbs,
+            grams: parseInt(row.grams),
+            calories: parseInt(row.calories),
+            protein: parseInt(row.protein),
+            fat: parseInt(row.fat),
+            satFat: parseInt(row.satFat),
+            fiber: parseInt(row.fiber),
+            carbs: parseInt(row.carbs),
             category: row.category,
           };
 
@@ -69,13 +69,13 @@ async function main() {
           addFood(
             row.food,
             row.measure,
-            row.grams,
-            row.calories,
-            row.protein,
-            row.fat,
-            row.satFat,
-            row.fiber,
-            row.carbs,
+            parseInt(row.grams),
+            parseInt(row.calories),
+            parseInt(row.protein),
+            parseInt(row.fat),
+            parseInt(row.satFat),
+            parseInt(row.fiber),
+            parseInt(row.carbs),
             row.category
           );
         }
