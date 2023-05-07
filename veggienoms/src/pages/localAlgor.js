@@ -14,16 +14,20 @@ function macroRatio(calsBurn, type, weight) {
   let FR;
   let CR;
 
-  type === 0
-    ? ((PR = 0.3), (CR = 0.4), (FR = 0.3))
-    : type === 1
-    ? ((PR = 0.3), (CR = 0.5), (FR = 0.2))
-    : ((PR = 0.4), (CR = 0.3), (FR = 0.3));
-  type === 1
-    ? (calsBurn += (1.0 * weight * weight) / 40.0)
-    : type === 2
-    ? (calsBurn -= (1.0 * weight * weight) / 40.0)
-    : (calsBurn = calsBurn);
+  if (type === 0) {
+    (PR = 0.3)((CR = 0.4))((FR = 0.3));
+  } else if (type === 1) {
+    (PR = 0.3)((CR = 0.5))((FR = 0.2));
+  } else {
+    (PR = 0.4)((CR = 0.3))((FR = 0.3));
+  }
+
+  if (type === 1) {
+    calsBurn += (1.0 * weight * weight) / 40.0;
+  } else if (type === 2) {
+    calsBurn -= (1.0 * weight * weight) / 40.0;
+  }
+
   return [
     Math.round(PR * calsBurn) / 4,
     Math.round(CR * calsBurn) / 4,
@@ -32,13 +36,15 @@ function macroRatio(calsBurn, type, weight) {
 }
 
 function getMeasurements(weight, height, age, isMale, type) {
-  weight < 100 ? (weight = 100) : weight;
-  weight > 200 ? (weight = 200) : weight;
+  if (weight < 100) {
+    weight = 100;
+  } else if (weight > 200) {
+    weight = 200;
+  }
   return macroRatio(calsBurn(weight, height, age, isMale), type, weight);
 }
-x = getMeasurements(160, 175, 60, true, 0);
-console.log(x);
 
 module.exports = {
   getMeasurements,
+  calsBurn,
 };

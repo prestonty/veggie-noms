@@ -141,12 +141,11 @@ async function findUser(client, username) {
   if (result) {
     console.log(`Found a user in the collection with the name '${username}':`);
     console.log(result);
+    return result;
   } else {
     console.log(`No user found with the name '${username}'`);
   }
 }
-
-//  WE NEED CODE TO UPDATE THE USER
 
 async function main() {
   const uri =
