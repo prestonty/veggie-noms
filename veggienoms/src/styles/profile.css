@@ -1,0 +1,54 @@
+.inline{
+    position:inline-block;
+}
+
+.left-text{
+    text-align:left;
+}
+
+.left-alignment {
+    text-align:left;
+    align-content:left;
+    margin-left:10%;
+    margin-top:-5%;
+    }
+
+    .right-alignment {
+        text-align:right;
+        align-content:right;
+        margin-right:20%;
+        }
+
+        .top-text{
+            margin-top:-30%;
+        }
+
+        .less-top-text{
+            margin-top: -19.5%;
+        }
+    
+.splash{
+    width:40%;
+    margin-right:-20%;
+}
+
+.button {
+    opacity:100%;
+    width:20%;
+  }
+  
+  .button:hover {
+    opacity:80%;
+    cursor: url(../assets/cursors/pointer.png), pointer;
+    animation: expand 0.2s forwards;
+  }
+
+  /* Define the animation */
+@keyframes expand {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
