@@ -7,6 +7,72 @@ body {
   cursor: url(../assets/cursors/default.png), default;
 }
 
+input {
+  border:none;
+  border-radius:50px;
+  background-color:#EBE6E6;
+  height:50px;
+  width:100px;
+  font-family: CodecPro;
+  font-size:24px;
+  text-align:center;
+  src: url(../assets/font/CodecPro-Light.woff);
+  margin-top:-5%;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  appearance: none;
+  border:none;
+  background-color:#CFC9C9;
+  color:#BEBF6F;
+  border-radius:20px;
+  height:50px;
+  width:50px;
+  margin-top:-1.5%;
+  margin-right:0.5%;
+}
+
+label[for="genderCheckbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+label[for="genderCheckbox"]::before {
+  cursor: url(../assets/cursors/pointer.png), pointer;
+  content: "M";
+  text-align:center;
+  margin-left:-2.75%;
+  font-size:24px;
+  position:absolute;
+}
+
+input[type="checkbox"]:checked + label[for="genderCheckbox"]::before {
+  cursor: url(../assets/cursors/pointer.png), pointer;
+  content: "F";
+}
+
+input:hover{
+  animation: expand 0.2s forwards;
+  cursor: url(../assets/cursors/pointer.png), pointer;
+}
+
+input, select, textarea{
+  color: #574F4A;
+}
+
+input[type="submit"]{
+  background: url('../assets/buttons/submit.png') no-repeat center center;
+  background-size:100%;
+  border: none;
+  cursor: pointer;
+  text-indent: -9999px; /* hide the text label */
+}
+
+textarea:focus, input:focus {
+  color: #574F4A;
+}
+
 tr:hover{
   cursor: url(../assets/cursors/pointer.png), pointer;
 }
@@ -30,4 +96,19 @@ h1 {
   font-family: CodecProBold;
   font-size: 96px;
   letter-spacing: -5px;
+}
+
+h2 {
+  font-family: CodecPro;
+  font-size: 42px;
+  letter-spacing: -2px;
+}
+
+@keyframes expand {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
 }

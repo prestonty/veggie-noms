@@ -1,12 +1,12 @@
 food,measure,grams,calories,protein,fat,satFat,fiber,carbs,category
 Cows' milk,1 qt.,976,660,32,40,36,0,48,Dairy products
-Milk skim,1 qt.,984,360,36,t,t,0,52,Dairy products
+Milk skim,1 qt.,984,360,36,0,0,0,52,Dairy products
 Buttermilk,1 cup,246,127,9,5,4,0,13,Dairy products
 "Evaporated, undiluted",1 cup,252,345,16,20,18,0,24,Dairy products
 Fortified milk,6 cups,"1,419","1,373",89,42,23,1.4,119,Dairy products
 Powdered milk,1 cup,103,515,27,28,24,0,39,Dairy products
-"skim, instant",1 1/3 cups,85,290,30,t,t,0,42,Dairy products
-"skim, non-instant",2/3 cup,85,290,30,t,t,1,42,Dairy products
+"skim, instant",1 1/3 cups,85,290,30,0,0,0,42,Dairy products
+"skim, non-instant",2/3 cup,85,290,30,0,0,1,42,Dairy products
 Goats' milk,1 cup,244,165,8,10,8,0,11,Dairy products
 (1/2 cup ice cream),2 cups,540,690,24,24,22,0,70,Dairy products
 Cocoa,1 cup,252,235,8,11,10,0,26,Dairy products
@@ -18,29 +18,29 @@ Ice milk,1 cup,190,275,9,10,9,0,32,Dairy products
 Cream or half-and-half,1/2 cup,120,170,4,15,13,0,5,Dairy products
 or whipping,1/2 cup,119,430,2,44,27,1,3,Dairy products
 Cheese,1 cup,225,240,30,11,10,0,6,Dairy products
-uncreamed,1 cup,225,195,38,t,t,0,6,Dairy products
-Cheddar,1-in. cube,17,70,4,6,5,0,t,Dairy products
+uncreamed,1 cup,225,195,38,0,0,0,6,Dairy products
+Cheddar,1-in. cube,17,70,4,6,5,0,0,Dairy products
 "Cheddar, grated cup",1/2 cup,56,226,14,19,17,0,1,Dairy products
 Cream cheese,1 oz.,28,105,2,11,10,0,1,Dairy products
-Processed cheese,1 oz.,28,105,7,9,8,0,t,Dairy products
-Roquefort type,1 oz.,28,105,6,9,8,0,t,Dairy products
-Swiss,1 oz.,28,105,7,8,7,0,t,Dairy products
-Eggs raw,2,100,150,12,12,10,0,t,Dairy products
+Processed cheese,1 oz.,28,105,7,9,8,0,0,Dairy products
+Roquefort type,1 oz.,28,105,6,9,8,0,0,Dairy products
+Swiss,1 oz.,28,105,7,8,7,0,0,Dairy products
+Eggs raw,2,100,150,12,12,10,0,0,Dairy products
 Eggs Scrambled or fried,2,128,220,13,16,14,0,1,Dairy products
-Yolks,2,34,120,6,10,8,0,t,"Fats, Oils, Shortenings"
-Butter,1T.,14,100,t,11,10,0,t,"Fats, Oils, Shortenings"
+Yolks,2,34,120,6,10,8,0,0,"Fats, Oils, Shortenings"
+Butter,1T.,14,100,0,11,10,0,0,"Fats, Oils, Shortenings"
 Butter,1/2 cup,112,113,114,115,116,117,118,"Fats, Oils, Shortenings"
 Butter,1/4 lb.,112,113,114,115,116,117,118,"Fats, Oils, Shortenings"
 Hydrogenated cooking fat,1/2 cup,100,665,0,100,88,0,0,"Fats, Oils, Shortenings"
 Lard,1/2 cup,110,992,0,110,92,0,0,"Fats, Oils, Shortenings"
-Margarine,1/2 cup,112,806,t,91,76,0,t,"Fats, Oils, Shortenings"
-"Margarine, 2 pat or",1 T.,14,100,t,11,9,0,t,"Fats, Oils, Shortenings"
-Mayonnaise,1 T.,15,110,t,12,5,0,t,"Fats, Oils, Shortenings"
+Margarine,1/2 cup,112,806,0,91,76,0,0,"Fats, Oils, Shortenings"
+"Margarine, 2 pat or",1 T.,14,100,0,11,9,0,0,"Fats, Oils, Shortenings"
+Mayonnaise,1 T.,15,110,0,12,5,0,0,"Fats, Oils, Shortenings"
 Corn oil,1 T.,14,125,0,14,5,0,0,"Fats, Oils, Shortenings"
 Olive oil,1T.,14,125,0,14,3,0,0,"Fats, Oils, Shortenings"
 Safflower seed oil,1 T.,14,125,0,14,3,0,0,"Fats, Oils, Shortenings"
-French dressing,1 T.,15,60,t,6,2,0,2,"Fats, Oils, Shortenings"
-Thousand Island sauce,1 T.,15,75,t,8,3,0,1,"Fats, Oils, Shortenings"
+French dressing,1 T.,15,60,0,6,2,0,2,"Fats, Oils, Shortenings"
+Thousand Island sauce,1 T.,15,75,0,8,3,0,1,"Fats, Oils, Shortenings"
 Salt pork,2 oz.,60,470,3,55,,0,0,"Meat, Poultry"
 Bacon,2 slices,16,95,4,8,7,0,1,"Meat, Poultry"
 Beef,3 oz.,85,245,23,16,15,0,0,"Meat, Poultry"
@@ -50,9 +50,9 @@ Roast beef,3 oz.,85,390,16,36,35,0,0,"Meat, Poultry"
 Steak,3 oz.,85,330,20,27,25,0,0,"Meat, Poultry"
 "Steak, lean, as round",3 oz.,85,220,24,12,11,0,0,"Meat, Poultry"
 Corned beef,3 oz.,85,185,22,10,9,0,0,"Meat, Poultry"
-Corned beef hash canned,3 oz.,85,120,12,8,7,t,6,"Meat, Poultry"
+Corned beef hash canned,3 oz.,85,120,12,8,7,0,6,"Meat, Poultry"
 Corned beef hash Dried,2 oz.,56,115,19,4,4,0,0,"Meat, Poultry"
-Pot-pie,1 pie,227,480,18,28,25,t,32,"Meat, Poultry"
-Corned beef hash Stew,1 cup,235,185,15,10,9,t,15,"Meat, Poultry"
+Pot-pie,1 pie,227,480,18,28,25,0,32,"Meat, Poultry"
+Corned beef hash Stew,1 cup,235,185,15,10,9,0,15,"Meat, Poultry"
 chicken,3 oz.,85,185,23,9,7,0,0,"Meat, Poultry"
 "Fried, breast or leg and thigh chicken",3 oz.,85,245,25,15,11,0,0,"Meat, Poultry"

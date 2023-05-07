@@ -1,6 +1,6 @@
 import '../styles/navigation.css';
 import TitleLogo from "../assets/logos/title.png";
-import Profile from "../assets/logos/profile.png";
+import About from "../assets/logos/about.png";
 
 function Navigation(){
 return(
@@ -9,7 +9,7 @@ return(
             <img src={TitleLogo} />
         </div>
         <div class="rightheader">
-        <img class="button" src={Profile} />
+        <img class="button" src={About} />
         </div>
     </div>
 );
