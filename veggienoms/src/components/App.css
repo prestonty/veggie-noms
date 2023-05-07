@@ -61,6 +61,14 @@ input, select, textarea{
   color: #574F4A;
 }
 
+input[type="submit"]{
+  background: url('../assets/buttons/submit.png') no-repeat center center;
+  background-size:100%;
+  border: none;
+  cursor: pointer;
+  text-indent: -9999px; /* hide the text label */
+}
+
 textarea:focus, input:focus {
   color: #574F4A;
 }
