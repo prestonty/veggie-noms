@@ -35,6 +35,7 @@ async function findItemFrom(client, nameOfItem) {
       `Found a item in the collection with the name '${nameOfItem}':`
     );
     console.log(result);
+    return result;
   } else {
     console.log(`No item found with the name '${nameOfItem}'`);
   }
@@ -54,15 +55,16 @@ async function findItemsFromProtein(client, amountOfProtein) {
   const results = await finder.toArray();
 
   if (results.length > 0) {
-    console.log(
-      `Found items with plus/minus 3g of ${amountOfProtein} protein:`
-    );
-    results.forEach((result, i) => {
-      console.log();
-      console.log(`${i + 1}. name: ${result.food}`);
-      console.log(`   _id: ${result._id}`);
-      console.log(`   protein: ${result.protein}`);
-    });
+    // console.log(
+    //   `Found items with plus/minus 3g of ${amountOfProtein} protein:`
+    // );
+    // results.forEach((result, i) => {
+    //   console.log();
+    //   console.log(`${i + 1}. name: ${result.food}`);
+    //   console.log(`   _id: ${result._id}`);
+    //   console.log(`   protein: ${result.protein}`);
+    // });
+    return results;
   } else {
     console.log(`No items found with ${amountOfProtein} protein`);
   }
@@ -82,13 +84,14 @@ async function findItemsFromCarbs(client, amountOfCarbs) {
   const results = await finder.toArray();
 
   if (results.length > 0) {
-    console.log(`Found items with plus/minus 3g of ${amountOfCarbs} carbs:`);
-    results.forEach((result, i) => {
-      console.log();
-      console.log(`${i + 1}. name: ${result.food}`);
-      console.log(`   _id: ${result._id}`);
-      console.log(`   carbs: ${result.carbs}`);
-    });
+    // console.log(`Found items with plus/minus 3g of ${amountOfCarbs} carbs:`);
+    // results.forEach((result, i) => {
+    //   console.log();
+    //   console.log(`${i + 1}. name: ${result.food}`);
+    //   console.log(`   _id: ${result._id}`);
+    //   console.log(`   carbs: ${result.carbs}`);
+    // });
+    return results;
   } else {
     console.log(`No items found with ${amountOfCarbs} carbs`);
   }
@@ -108,13 +111,14 @@ async function findItemsFromFat(client, amountOfFat) {
   const results = await finder.toArray();
 
   if (results.length > 0) {
-    console.log(`Found items with plus/minus 3g of ${amountOfFat} fat:`);
-    results.forEach((result, i) => {
-      console.log();
-      console.log(`${i + 1}. name: ${result.food}`);
-      console.log(`   _id: ${result._id}`);
-      console.log(`   fat: ${result.fat}`);
-    });
+    // console.log(`Found items with plus/minus 3g of ${amountOfFat} fat:`);
+    // results.forEach((result, i) => {
+    //   console.log();
+    //   console.log(`${i + 1}. name: ${result.food}`);
+    //   console.log(`   _id: ${result._id}`);
+    //   console.log(`   fat: ${result.fat}`);
+    // });
+    return results;
   } else {
     console.log(`No items found with ${amountOfFat} fat`);
   }
