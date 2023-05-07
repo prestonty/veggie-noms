@@ -104,6 +104,12 @@ h2 {
   letter-spacing: -2px;
 }
 
+h3 {
+  font-family: CodecPro;
+  font-size: 32px;
+  letter-spacing: -2px;
+}
+
 @keyframes expand {
   from {
     transform: scale(1);

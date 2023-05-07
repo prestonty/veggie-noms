@@ -2,17 +2,18 @@ import '../styles/profile.css';
 import React, { useState } from "react";
 import ProfileIcon from "../assets/logos/profile.png";
 import Submit from "../assets/buttons/submit.png";
+import { calsBurn } from "../calsculator.js";
 
 function Profile() {
   const [weight, setWeight] = useState('');
   const [height, setHeight] = useState('');
   const [age, setAge] = useState('');
   const [sex, setSex] = useState(true);
+  var data = "";
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // prevent the form from submitting
-    // Do something with the form data, such as sending it to a server
-    // Parameters here: weight, height, age, sex;
+    event.preventDefault();
+    calsBurn(weight, height, age, sex);
   };
 
   const handleWeightChange = (event) => {
@@ -54,6 +55,7 @@ function Profile() {
     </div>
     <input type="submit" class="button" value="Submit"></input>
     </div>
+    <h2>{data}</h2>
     </div>
     </form>
   );

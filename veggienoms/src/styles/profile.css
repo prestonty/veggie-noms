@@ -43,6 +43,10 @@
     animation: expand 0.2s forwards;
   }
 
+.button tiny {
+  width:10%;
+}
+
   /* Define the animation */
 @keyframes expand {
     from {

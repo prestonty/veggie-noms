@@ -1,0 +1,22 @@
+.button-container {
+    display:flex;
+  }
+  
+  .option {
+    margin:2.5%;
+  }
+
+  .clickable {
+    opacity:100%;
+    width:20%;
+  }
+  
+  .clickable:hover {
+    opacity:80%;
+    cursor: url(../assets/cursors/pointer.png), pointer;
+    animation: expand 0.2s forwards;
+  }
+
+  .bold{
+    font:bold;
+  }
