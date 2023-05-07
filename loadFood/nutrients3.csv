@@ -1,0 +1,104 @@
+food,measure,grams,calories,protein,fat,satFat,fiber,carbs,category
+Tomato catsup,1 T.,17,15,t,t,0,t,4,Vegetables R-Z
+Turnip greens,1 cup,145,45,4,1,0,1.8,8,Vegetables R-Z
+"Turnips, steamed",1 cup,155,40,1,t,0,1.8,9,Vegetables R-Z
+"Watercress stems, raw",1 cup,50,9,1,t,0,0.3,1,Fruits A-F
+Apple juice canned,1 cup,250,125,t,0,0,0,34,Fruits A-F
+Apple vinegar,1/3 cup,100,14,t,0,0,0,3,Fruits A-F
+"Apples, raw",1 med,130,70,t,t,0,1,18,Fruits A-F
+Stewed or canned,1 cup,240,100,t,t,0,2,26,Fruits A-F
+Apricots,1 cup,250,220,2,t,0,1,57,Fruits A-F
+"Dried, uncooked",1/2 cup,75,220,4,t,0,1,50,Fruits A-F
+Fresh,3 med.,114,55,1,t,0,0.70,14,Fruits A-F
+"Nectar, or juice",1 cup,250,140,1,t,0,2,36,Fruits A-F
+Avocado,1/2 large,108,185,2,18,12,1.80,6,Fruits A-F
+Banana,1 med.,150,85,1,t,0,0.9,23,Fruits A-F
+Blackberries,1 cup,144,85,2,1,0,6.60,19,Fruits A-F
+Blueberries,1 cup,250,245,1,t,0,2,65,Fruits A-F
+Cantaloupe,1/2 med.,380,40,1,t,0,2.20,9,Fruits A-F
+Cherries,1 cup,257,100,2,1,0,2,26,Fruits A-F
+"Fresh, raw",1 cup,114,65,1,t,0,0.8,15,Fruits A-F
+Cranberry sauce sweetened,1 cup,277,530,t,t,0,1.2,142,Fruits A-F
+Dates,1 cup,178,505,4,t,0,3.6,134,Fruits A-F
+Figs,2,42,120,2,t,0,1.9,30,Fruits A-F
+"Fresh, raw figs",3 med.,114,90,2,t,0,1,22,Fruits A-F
+figs Canned with syrup ,3,115,130,1,t,0,1,32,Fruits A-F
+"Fruit cocktail, canned",1 cup,256,195,1,t,0,0.5,50,Fruits A-F
+Grapefruit sections,1 cup,250,170,1,t,0,0.5,44,Fruits G-P
+"Grapefruit, fresh, 5"" diameter",1/2,285,50,1,t,t,1,14,Fruits G-P
+Grapefruit juice,1 cup,250,100,1,t,0,1,24,Fruits G-P
+Grapes,1 cup,153,70,1,t,0,0.8,16,Fruits G-P
+"European, as Muscat, Tokay",1 cup,160,100,1,t,0,0.7,26,Fruits G-P
+Grape juice,1 cup,250,160,1,t,0,t,42,Fruits G-P
+Lemon juice,1/2 cup,125,30,t,t,0,t,10,Fruits G-P
+Lemonade concentratefrozen,6-oz. can,220,430,t,t,0,t,112,Fruits G-P
+Limeade concentrate frozen,6-oz. can,218,405,t,t,0,t,108,Fruits G-P
+Olives large,10,65,72,1,10,9,0.8,3,Fruits G-P
+OlivesRipe,10,65,105,1,13,12,1,1,Fruits G-P
+"Oranges 3"" diameter",1 med.,180,60,2,t,t,1,16,Fruits G-P
+Orange juice,8 oz. or,250,112,2,t,0,0.2,25,Fruits G-P
+Frozen ,6-oz. can,210,330,2,t,t,0.4,78,Fruits G-P
+Papaya,1/2 med.,200,75,1,t,0,1.8,18,Fruits G-P
+Peaches,1 cup,257,200,1,t,0,1,52,Fruits G-P
+"Fresh, raw",1 med.,114,35,1,t,0,0.6,10,Fruits G-P
+Pears,1 cup,255,195,1,t,0,2,50,Fruits G-P
+"Raw, 3 by 2V",1 med.,182,100,1,1,0,2,25,Fruits G-P
+Persimmons,1 med.,125,75,1,t,0,2,20,Fruits G-P
+Pineapple,1 large slice,122,95,t,t,0,0.4,26,Fruits G-P
+Pineapple Crushed,1 cup,260,205,1,t,0,0.7,55,Fruits G-P
+"Raw, diced",1 cup,140,75,1,t',0,0.6,19,Fruits G-P
+Pineapple juice,1 cup,250,120,1,t,0,0.2,32,Fruits G-P
+Plums,1 cup,256,185,1,t,0,0.7,50,Fruits G-P
+"Raw, 2"" diameter",1,60,30,t,t,0,0.2,7,Fruits G-P
+Prunes,1 cup,270,300,3,1,0,0.8,81,Fruits G-P
+Prune juice,1 cup,240,170,1,t,0,0.7,45,Fruits G-P
+Raisins,1/2 cup,88,230,2,t,0,0.7,82,Fruits R-Z
+Raspberries,1/2 cup,100,100,t,t,0,2,25,Fruits R-Z
+"Raw, red",3/4 cup,100,57,t,t,0,5,14,Fruits R-Z
+Rhubarb sweetened,1 cup,270,385,1,t,0,1.9,98,Fruits R-Z
+Strawberries,1 cup,227,242,1,t,0,1.3,60,Fruits R-Z
+Raw,1 cup,149,54,t,t,0,1.9,12,Fruits R-Z
+Tangerines,I med.,114,40,1,t,0,1,10,Fruits R-Z
+Watermelon,1 wedge,925,120,2,1,0,3.6,29,Fruits R-Z
+Biscuits,1,38,130,3,4,3,t,18,"Breads, cereals, fastfood,grains"
+Bran flakes,1 cup,25,117,3,t,0,0.10,32,"Breads, cereals, fastfood,grains"
+"Bread, cracked wheat",1 slice,23,60,2,1,1,0.10,12,"Breads, cereals, fastfood,grains"
+Rye,1 slice,23,55,2,1,1,0.10,12,"Breads, cereals, fastfood,grains"
+"White, 20 slices, or",1-lb. loaf,454,"1,225",39,15,12,9.00,229,"Breads, cereals, fastfood,grains"
+Whole-wheat,1-lb. loaf,454,"1,100",48,14,10,67.50,216,"Breads, cereals, fastfood,grains"
+Whole-wheat,1 slice,23,55,2,1,0,0.31,11,"Breads, cereals, fastfood,grains"
+Corn bread ground meal,1 serving,50,100,3,4,2,0.30,15,"Breads, cereals, fastfood,grains"
+Cornflakes,1 cup,25,110,2,t,0,0.1,25,"Breads, cereals, fastfood,grains"
+Corn grits cooked,1 cup,242,120,8,t,0,0.2,27,"Breads, cereals, fastfood,grains"
+Corn meal,1 cup,118,360,9,4,2,1.6,74,"Breads, cereals, fastfood,grains"
+Crackers,2 med.,14,55,1,1,0,t,10,"Breads, cereals, fastfood,grains"
+"Soda, 2 1/2 square",2,11,45,1,1,0,t,8,"Breads, cereals, fastfood,grains"
+Farina,1 cup,238,105,3,t,0,8,22,"Breads, cereals, fastfood,grains"
+Flour,1 cup,110,460,39,22,0,2.9,33,"Breads, cereals, fastfood,grains"
+Wheat (all purpose),1 cup,110,400,12,1,0,0.3,84,"Breads, cereals, fastfood,grains"
+Wheat (whole),1 cup,120,390,13,2,0,2.8,79,"Breads, cereals, fastfood,grains"
+Macaroni,1 cup,140,155,5,1,0,0.1,32,"Breads, cereals, fastfood,grains"
+Baked with cheese,1 cup,220,475,18,25,24,t,44,"Breads, cereals, fastfood,grains"
+Muffins,1,48,135,4,5,4,t,19,"Breads, cereals, fastfood,grains"
+Noodles,1 cup,160,200,7,2,2,0.1,37,"Breads, cereals, fastfood,grains"
+Oatmeal,1 cup,236,150,5,3,2,4.6,26,"Breads, cereals, fastfood,grains"
+"Pancakes 4"" diam.",4,108,250,7,9,0,0.1,28,"Breads, cereals, fastfood,grains"
+"Wheat, pancakes 4"" diam.",4,108,250,7,9,0,0.1,28,"Breads, cereals, fastfood,grains"
+"Pizza 14"" diam.",1 section,75,180,8,6,5,t,23,"Breads, cereals, fastfood,grains"
+Popcorn salted,2 cups,28,152,3,7,2,0.5,20,"Breads, cereals, fastfood,grains"
+Puffed rice,1 cup,14,55,t,t,0,t,12,"Breads, cereals, fastfood,grains"
+Puffed wheat presweetened,1 cup,28,105,1,t,0,0.6,26,"Breads, cereals, fastfood,grains"
+Rice,1 cup,208,748,15,3,0,1.2,154,"Breads, cereals, fastfood,grains"
+Converted,1 cup,187,677,14,t,0,0.4,142,"Breads, cereals, fastfood,grains"
+White,1 cup,191,692,14,t,0,0.3,150,"Breads, cereals, fastfood,grains"
+Rice flakes,1 cup,30,115,2,t,0,0.1,26,"Breads, cereals, fastfood,grains"
+Rice polish,1/2 cup,50,132,6,6,0,1.2,28,"Breads, cereals, fastfood,grains"
+Rolls,1 large,50,411,3,12,11,0.1,23,"Breads, cereals, fastfood,grains"
+of refined flour,1,38,115,3,2,2,t,20,"Breads, cereals, fastfood,grains"
+whole-wheat,1,40,102,4,1,0,0.1,20,"Breads, cereals, fastfood,grains"
+Spaghetti with meat sauce,1 cup,250,285,13,10,6,0.50,35,"Breads, cereals, fastfood,grains"
+with tomatoes and cheese,1 cup,250,210,6,5,3,0.50,36,"Breads, cereals, fastfood,grains"
+Spanish rice,1 cup,250,217,4,4,0,1.20,40,"Breads, cereals, fastfood,grains"
+Shredded wheat biscuit,1,28,100,3,1,0,0.70,23,"Breads, cereals, fastfood,grains"
+Waffles,1,75,240,8,9,1,0.10,30,"Breads, cereals, fastfood,grains"
+Wheat germ,1 cup,68,245,17,7,3,2.50,34,"Breads, cereals, fastfood,grains"
